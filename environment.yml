@@ -1,0 +1,15 @@
+name: percolation_diffusion
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip=21.2.4
+  - python=3.9.7
+  - matplotlib=3.4.3
+  - numpy=1.21.2
+  - pandas=1.3.3
+  - ipykernel=6.2.0
+  - notebook=6.4.4
+  - pip:
+    - jupyter_contrib_nbextensions==0.5.1
+    - "--editable=."
